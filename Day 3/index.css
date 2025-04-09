@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* h1{
+    color: rgb(255, 28, 213);
+  
+    
+}
+
+.ram{
+    color: orange;
+    font-family: sans-serif;
+}
+
+#kalam{
+    color: black;
+}
+
+p{
+    color: blue;
+    background: #0cf277;
+} */
+
+
+
+div{
+    background-image: url("https://images.unsplash.com/photo-1741802856120-3b915476f1ab?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin: 30px;
+    height: 500px;
+    width: 500px;
+    box-shadow: 0px 0px 20px blue  ;
+    border-radius: 50%;
+}
