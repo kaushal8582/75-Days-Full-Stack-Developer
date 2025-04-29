@@ -1,20 +1,20 @@
-// id selector
-// class selector
-// tag selector
-// query selector
-// query selector all
-
-
-// let kalam = document.getElementById("kalam");
-// let nikita = document.getElementsByClassName("nikita");
-// let h1 = document.getElementsByTagName("h1");
-
-// let button = document.querySelector("button");
-// let btn = document.querySelector("#btn");
-
-// .chal
-// #btn
-
-
-let h1s = document.querySelectorAll("h1");
-console.log(h1s[3]);
+// write a Node.js script to extract and print all valid email addresses.
+// get list of user name for having invalid email address
+let data = [
+    { "id": 1, "name": "Alice", "email": "alice@example.com" },
+    { "id": 2, "name": "Bob", "email": "invalid-email" },
+    { "id": 3, "name": "Charlie" },
+    { "id": 4, "name": "Dave", "email": "dave@example.org" }
+  ]
+  
+  
+  function checkvalid(arr){
+      let invalidUser =[]
+      arr.forEach((item)=>{
+        if()
+         console.log(item.email.includes("@"))
+      })
+  }
+  
+  checkvalid(data)
+  
